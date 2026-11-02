@@ -11,3 +11,12 @@ Continues the existing React/Vite site from origin/main e7d21a8. No redesign or 
 Validation: npm run build; static Pages route preparation; git diff --check; 390px and 1440px browser checks for five routes; all eight process tabs, six category controls, image decoding, overflow, and lightbox. V2 onboarding tested to choice page. Figma access and full real-world hardware integration are not verified.
 
 Initial refresh deployed in e0cb2bd. Follow-up scope: cover hover/focus consistency, tablet edge clipping, competitor copy and placement, removal of undergraduate icon work. Original prototypes unchanged. Targeted checks passed at 390px and 1440px, including actual mouse-hover transform changes and watch/strap alignment.
+
+## 2026-11-02 — focused copy and flow presentation update
+
+- Simplified competitor headings/copy and V1 flow descriptions; separated optional V1 branches instead of mixing English action names into one long path.
+- Replaced the misordered five-image V2 strip with three selectable paths: writing/casting (8 screens), reading/responding (4), and optional Token matching (10). Screens captured from the existing bundled V2 components; original interactive prototype unchanged. Transient states and matching remain prototype demonstrations.
+- Added five mid-fidelity watch screens from page 1 of `A2_yili0658.pdf`. Extracted original PDF vector content, omitting report background and annotation arrows, retaining watch shells and UI. No report pages embedded.
+- Removed Drift competitor outbound links. WeChat mark: Simple Icons `icons/wechat.svg` (white on brand green). Bottled uses a text wordmark fallback; official site and app stores were inaccessible through the environment network policy, so no unverified pictorial logo was substituted.
+- Bounded homepage Drift phone heights to preserve all three screens and existing hover/focus motion.
+- Validation: production build; four viewport checks (1440/1024/768/390), cover bounds before/after hover, all V2 presentation paths, mid-fi assets, missing images, horizontal overflow, competitor external-link removal; existing route/prototype release checks.

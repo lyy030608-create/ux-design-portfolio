@@ -1,0 +1,7 @@
+import {useState} from 'react';
+const flows=[
+ {title:'写消息与投瓶',note:'投瓶后可以结束；愿意继续交流时，再进入 Token 匹配。',steps:[['welcome','进入体验'],['tutorial','首次使用引导'],['choice','选择写消息'],['compose','输入匿名消息'],['cast','上划投出瓶子'],['wallEcho','查看墙面反馈'],['visibility','选择是否允许匹配'],['completed','投瓶完成']]},
+ {title:'阅读与回应',note:'不想回应可以回到列表；发送后可以继续阅读或结束。',steps:[['choice','选择读消息'],['readRandom','浏览漂流瓶'],['readMessage','阅读并填写回应'],['responseSent','回应成功']]},
+ {title:'Token 匹配（可选）',note:'选择直接等待时，跳过匹配列表与时间设置。收到提醒后，可查看留言或见面信息，最后归还 Token。',steps:[['completed','选择继续交流'],['driftTutorial','了解 Token 用法'],['tokenPickup','触碰 Token'],['searchWait','选择寻找或等待'],['searchMatches','选择匹配的消息'],['notifyOptions','设置等待时间与留言'],['waitState','等待回应'],['tokenGlow','Token 发光提醒'],['returnPrompt','再次触碰 Token'],['meetOrMessage','查看结果并结束']]}
+];
+export function DriftFlow(){const[active,setActive]=useState(0);const flow=flows[active];return <section className="drift-flow-study"><div className="drift-flow-heading"><span className="eyebrow">V2 界面流程</span><h2>写消息、读消息与后续交流</h2></div><nav className="process-tabs" aria-label="Message Drift 界面路径">{flows.map((f,i)=><button key={f.title} aria-pressed={i===active} onClick={()=>setActive(i)}>{f.title}</button>)}</nav><div className="drift-flow-panel" aria-live="polite"><ol className="drift-screen-grid">{flow.steps.map(([file,title],i)=><li key={file}><img loading="lazy" src={`/ux-design-portfolio/media/drift-v2-${file}.webp`} alt={title+'的 V2 原型界面'}/><span>{String(i+1).padStart(2,'0')}</span><h3>{title}</h3></li>)}</ol><p>{flow.note}</p></div></section>}
