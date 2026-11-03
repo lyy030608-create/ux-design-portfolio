@@ -28,3 +28,10 @@ Initial refresh deployed in e0cb2bd. Follow-up scope: cover hover/focus consiste
 - Reordered existing case content: introduction → paper prototype → V1 / 13 prototype tests → survey and interview findings → V2 / client feedback → final V6 presentation. Survey findings remain identified separately from prototype-test findings; placement does not assert the survey occurred after V1.
 - Survey: 13 respondents, ages 23–28, 11 female/2 male; 85% trust less after learning of paid partnership, 69% bought on recommendation, one third of those buyers did not independently research, mean trust 2.5/5 (none above 3). Reminder item retains the source's denominator of 12 (8/12), rather than silently changing it to 13.
 - Condensed interview findings and changed the home card descriptor to state what the product does. Other projects, assets, and interactive prototypes unchanged.
+
+### Follow-up: label testing and homepage descriptors
+
+- Per the user's clarification, low-fidelity work classified labels for users to choose familiar wording; V1 was a mid-fidelity A/B comparison of different labels with think-aloud feedback. Added selection of Paid partnership and some users' request for comments, without claiming that comments were implemented or reporting unprovided statistical results.
+- Nested the survey findings inside the V1/user-feedback chapter with a distinct “问卷发现” heading; preserved the survey/test distinction.
+- Changed attribution to “与合作方沟通后，我们发现”.
+- Homepage descriptors now identify Karaoke as cross-device interaction for users with KTV song-choice anxiety, and Message Drift as an interactive campus public-art installation supporting anonymous expression.

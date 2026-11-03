@@ -47,3 +47,4 @@
 /* Dose of Truth: research evidence in the existing case-study layout. */
 .dose-research .trust-finding strong{font-size:64px;letter-spacing:-3px}.dose-research .trust-finding p{margin-top:12px}.dose-survey-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;margin-bottom:16px}.dose-survey-grid article{border-top:1px solid #d5ccdf;padding-top:24px}.dose-survey-grid strong{font-size:32px;font-weight:500}.dose-survey-grid p{margin-top:12px}.dose-sample-note{margin-bottom:40px}.dose-research-takeaway{border-top:1px solid #d5ccdf;margin-top:32px;padding-top:24px;font-weight:600;color:#35214e}
 @media(max-width:700px){.dose-survey-grid{grid-template-columns:1fr;gap:24px}.dose-research .research-stats{grid-template-columns:1fr 1fr;gap:28px}.dose-research .trust-finding{grid-column:1/-1}.dose-research .trust-finding strong{font-size:56px}}
+#research .dose-research .section-intro h3{font-size:clamp(26px,3vw,40px);line-height:1.3;margin-top:12px}
