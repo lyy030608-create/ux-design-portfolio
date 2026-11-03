@@ -20,3 +20,11 @@ Initial refresh deployed in e0cb2bd. Follow-up scope: cover hover/focus consiste
 - Removed Drift competitor outbound links. WeChat mark: Simple Icons `icons/wechat.svg` (white on brand green). Bottled uses a text wordmark fallback; official site and app stores were inaccessible through the environment network policy, so no unverified pictorial logo was substituted.
 - Bounded homepage Drift phone heights to preserve all three screens and existing hover/focus motion.
 - Validation: production build; four viewport checks (1440/1024/768/390), cover bounds before/after hover, all V2 presentation paths, mid-fi assets, missing images, horizontal overflow, competitor external-link removal; existing route/prototype release checks.
+
+## 2026-11-03 — Dose of Truth scope and case-study chronology
+
+- Sources: newly supplied `desn9200 - product manual.docx` and one-page `Client Meeting Be Yourself（拖移项目）.pdf` (visually read; page is outlined/image content).
+- Scope is health-related social posts/short videos with commercial interests, not supplement advertising alone. The manual proposes platform-native integration as the main delivery route, with a desktop browser extension for pilot testing. Neither is described as already deployed.
+- Reordered existing case content: introduction → paper prototype → V1 / 13 prototype tests → survey and interview findings → V2 / client feedback → final V6 presentation. Survey findings remain identified separately from prototype-test findings; placement does not assert the survey occurred after V1.
+- Survey: 13 respondents, ages 23–28, 11 female/2 male; 85% trust less after learning of paid partnership, 69% bought on recommendation, one third of those buyers did not independently research, mean trust 2.5/5 (none above 3). Reminder item retains the source's denominator of 12 (8/12), rather than silently changing it to 13.
+- Condensed interview findings and changed the home card descriptor to state what the product does. Other projects, assets, and interactive prototypes unchanged.
